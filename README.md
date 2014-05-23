@@ -1,5 +1,9 @@
 datasciencecoursera
 ===================
+Assumptions: For the code to work the working directory should have UCI HAR Dataset folder
+
+Process:
+
 In the first step of the program the two data sets, TEST data set and TRAIN data set, are merged.
 
 For the TRAIN data set, each of the 3 axis are read into the appropriate variable. In order to merge
