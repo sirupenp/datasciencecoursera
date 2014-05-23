@@ -19,10 +19,13 @@ are given to each column.
 
 Finally, the TrainDataTbl is appended with the TestDataTbl.
 
-For step 2 only the columns with MEAN and DEV in the names are picked and assigned to the FinalDataTbl
+For step 2 only the columns with MEAN and DEV in the names are picked using the grep
+function and only those columns are assigned to the FinalDataTbl
 
 For step 3 and 4 descriptive names are given to the activities, to do this the Activities are read into
-a variable and assigned to the FinalDataTbl
+a variable and assigned to the FinalDataTbl, thus the FinalDataTbl contains the data that is grouped by
+activity.
 
-For step 5 a tidy data set is created that follows the tidy data definition. And finally export the table 
-to a text file.
+For step 5 a tidy data set is created that follows the tidy data definition. 
+
+And finally export the table to a text file.
